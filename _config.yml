@@ -103,16 +103,16 @@ analytics:
 author:
   name             : "Torsten Babl"
   avatar           : # TODO: path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Electrical and Computer Engineering student, farm boy, ex patrol leader and business founder."
+  bio              : "Electrical and Computer Engineering student, ex patrol leader and ag-tech business founder with farming background."
   location         : "Cape Town, South Africa"
   email            :
   links:
     - label: "Email" # TODO
       icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:torsten@ackerview.com"
+      url: "mailto://torsten@ackerview.com"
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://ackerview.com"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
@@ -121,10 +121,13 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/torstenbabl/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/torsten-babl-1a3311128"
 
 # Site Footer
 footer:
