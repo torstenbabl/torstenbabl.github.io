@@ -15,11 +15,11 @@
 minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en-US"
+locale                   : "en-ZA"
 title                    : "Torsten Babl"
 title_separator          : "-"
 name                     : "Torsten Babl"
-description              : "An amazing website." # TODO: Change
+description              : "Personal Blog and Project Portfolio" # TODO: Change
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -102,12 +102,12 @@ analytics:
 # Site Author
 author:
   name             : "Torsten Babl"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  avatar           : # TODO: path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Electrical and Computer Engineering student, farm boy, ex patrol leader and business founder."
   location         : "Cape Town, South Africa"
   email            :
   links:
-    - label: "Email"
+    - label: "Email" # TODO
       icon: "fas fa-fw fa-envelope-square"
       # url: "mailto:torsten@ackerview.com"
     - label: "Website"
@@ -288,3 +288,11 @@ defaults:
       comments: # true
       share: true
       related: true
+
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      +author_profile: true
