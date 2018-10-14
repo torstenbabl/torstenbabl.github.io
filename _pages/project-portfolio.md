@@ -4,7 +4,7 @@ permalink: /project-portfolio/
 title: "Project Portfolio"
 author_profile: true
 header:
-  image: "https://www.atlanticbreeze.co.za/wp-content/uploads/2017/04/V-A-Waterfront.jpg"
+  image: "assets/images/me102018.JPG"
 ---
 {% include base_path %}
 {% include group-by-array collection=site.posts field="tags" %}
