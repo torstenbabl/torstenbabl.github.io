@@ -103,7 +103,7 @@ analytics:
 author:
   name             : "Torsten Babl"
   avatar           : "/assets/images/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Electrical and Computer Engineering student, ex patrol leader at Scouts South Africa and ag-tech business founder with farming background."
+  bio              : "Electrical and Computer Engineering student and ag-tech business founder with farming background."
   location         : "Cape Town, South Africa"
   email            :
   links:
